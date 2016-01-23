@@ -14,4 +14,4 @@ def draw_floor(x, y, z, length, mcblock):
     pass
 
 playerPos = mc.player.getPos()
-draw_rectangle(int(playerPos.x), int(playerPos.y), int(playerPos.z), 40, 40, GLASS)
+draw_wall(int(playerPos.x), int(playerPos.y), int(playerPos.z), 40, 40, GLASS)
